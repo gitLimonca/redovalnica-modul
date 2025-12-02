@@ -12,8 +12,8 @@ Ukaz: go run ./cmd <command>
 - "izpis" ---> izpiše vse študente in njihove ocene
 
 - "dodaj <vpisna> <ocena>" ---> doda oceno <ocena> študentu z vpisno številko <vpisna>
-  možna 2 flaga: "--minOcena" ---> najmanjša možna ocena (privzeto 0)
-                 "--maxOcena" ---> največja možna ocena (privzeto 10)
+  možna 2 flaga: - "--minOcena" ---> najmanjša možna ocena (privzeto 0)
+                 - "--maxOcena" ---> največja možna ocena (privzeto 10)
 
 - "uspeh" ---> izpiše končni uspeh vseh študentov glede na minimalno število ocen
-  možni flag: "--stOcen" ---> minimalno število ocen za izračun končnega uspeha (privzeto 6)
+  možni flag: - "--stOcen" ---> minimalno število ocen za izračun končnega uspeha (privzeto 6)
