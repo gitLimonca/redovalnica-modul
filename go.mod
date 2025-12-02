@@ -1,5 +1,5 @@
 module github.com/gitLimonca/redovalnica-modul
 
-go 1.22
+go 1.25
 
-require github.com/urfave/cli/v3 v3.0.0
+require github.com/urfave/cli/v3 v3.6.1
