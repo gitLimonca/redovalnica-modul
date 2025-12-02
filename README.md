@@ -6,7 +6,7 @@ Omogoča dodajanje ocen, izpis vseh ocen in izpis končnega uspeha študentov.
 ---
 # Uporaba
 
-Ukaz: go run ./cmd "<command>"
+Ukaz: go run ./cmd "ukaz" "flag"
 
 3-je commandi: 
 - "izpis" ---> izpiše vse študente in njihove ocene
@@ -15,3 +15,7 @@ Ukaz: go run ./cmd "<command>"
 
 - "uspeh" ---> izpiše končni uspeh vseh študentov glede na minimalno število ocen
   
+3-je flagi: 
+- --minOcena → najmanjša dovoljena ocena (privzeto 0)
+- --maxOcena → največja dovoljena ocena (privzeto 10)
+- --stOcen → minimalno število ocen za izračun končnega uspeha (privzeto 6)
